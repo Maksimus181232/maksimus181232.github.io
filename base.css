@@ -1,10 +1,10 @@
 :root {
   --TB-tr-roundness: var(--window-roundness);
   --tint: rgba(var(--tint-colour), var(--tint-brightness));
-  --white-half: rgba(255, 255, 255, 0.025);
-  --white: rgba(255, 255, 255, 0.05);
-  --white-double: rgba(255, 255, 255, 0.1);
-  --white-triple: rgba(255, 255, 255, 0.15);
+  --white-half: rgba(255, 255, 255, 1);
+  --white: rgba(255, 255, 255, 1);
+  --white-double: rgba(255, 255, 255, 1);
+  --white-triple: rgba(255, 255, 255, 1);
   --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
   --gradient-20: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.2), rgba(var(--gradient-secondary), 0.2));
   --gradient-50: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.5), rgba(var(--gradient-secondary), 0.5));
@@ -21,7 +21,7 @@
   --discord-spotify: 29, 185, 84;
   --discord-twitch: 89, 54, 149;
   --discord-xbox: 16, 124, 16;
-  --version: "Fastline 0.0.1";
+  --version: "FASTLINE 0.0.1";
 }
 .theme-dark {
   --header-primary: #fff;
@@ -124,15 +124,6 @@
   color: var(--text-normal);
 }
 #app-mount .app-2rEoOp::before {
-  content: "Your version is custom.";
-  white-space: pre-wrap;
-  display: var(--update-notice-1, block);
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-  box-sizing: border-box;
-  background: rgb(var(--discord-blurple), 0.7);
-  text-shadow: 0 2px 3px rgba(0, 0, 0, var(--text-shadow));
 }
 ::-webkit-scrollbar {
   width: 8px !important;
@@ -433,16 +424,6 @@
   background: var(--gradient);
   background-color: transparent;
 }
-#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx:before {
-  content: "";
-  border-radius: 50%;
-  position: absolute;
-  background: var(--home-button-image, url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg"));
-  background-size: var(--home-button-size, cover);
-  background-position: var(--home-button-position, center);
-  height: 100%;
-  width: 100%;
-  transition: 0.2s ease;
 }
 #app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx.selected-bZ3Lue:before {
   border-radius: 30%;
