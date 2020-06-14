@@ -124,7 +124,7 @@
   color: var(--text-normal);
 }
 #app-mount .app-2rEoOp::before {
-  content: "Your version of Frosted Glass is outdated. Please redownload";
+  content: "Your version is custom.";
   white-space: pre-wrap;
   display: var(--update-notice-1, block);
   color: #fff;
